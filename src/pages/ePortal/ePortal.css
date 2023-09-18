@@ -1,0 +1,26 @@
+.eportal-container {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+}
+
+.ePortal-list_li {
+    margin-top: .5rem;
+}
+
+.ePortal-btn {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: .3rem;
+    border: .2rem solid var(--bg-color);
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ePortal-btn:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}

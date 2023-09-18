@@ -1,0 +1,70 @@
+.admission-box1 {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+}
+
+.admission-box2 {
+    background-color: var(--bg-color);
+    padding: 4rem 1rem;
+}
+
+.admission-rule {
+    background-color: var(--primary-color);
+    height: 2px;
+}
+
+.admission-box5_list {
+    margin-top: .2rem;
+}
+
+.admission-box5_item {
+    list-style-type: none;
+}
+
+.admission-form {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+}
+
+#course,
+#payment,
+#address,
+#phone,
+#email,
+#d-o-b,
+#gender,
+#name {
+    width: 100%;
+    padding: .5rem .8rem;
+    outline: none;
+}
+
+#address {
+    resize: none;
+}
+
+.admission-btn01 {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .admission-form01 {
+        display: flex;
+        justify-content: center;
+        column-gap: 5rem;
+    }
+
+    .admission-btn001 {
+        display: none;
+    }
+
+    .admission-btn01 {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .admission-form01 {
+        column-gap: 10rem;
+    }
+}

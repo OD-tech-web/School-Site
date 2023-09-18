@@ -1,0 +1,11 @@
+export {default as Home} from './home/Home';
+export {default as About} from './about/About';
+export {default as Courses} from './courses/Courses';
+export {default as Campus} from './campus-tour/CampusTour';
+export {default as Fees} from './fees/Fees';
+export {default as Admissions} from './admissions/Admissions';
+export {default as Contact} from './contact/Contact';
+export {default as EPortal} from './ePortal/EPortal';
+export {default as PostgraduateStudies} from './postgraduate-studies/PostgraduateStudies';
+export {default as Transcript} from './transcript/Transcript';
+export {default as Error} from './error/Error';

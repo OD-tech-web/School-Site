@@ -1,0 +1,35 @@
+.course-mg_sm {
+    margin-top: .2rem;
+}
+
+.course-container {
+    margin: 6rem auto 2.5rem;
+}
+
+.course-box7 {
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+}
+
+.course-rule {
+    background-color: var(--bg-color);
+    height: 2px;
+}
+
+#customer {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+#customer td,
+#customer th {
+    border-bottom: 2px solid var(--primary-color);
+    padding: 8px;
+}
+
+#customer tr .fee-tabb {
+    border-bottom: 2px solid var(--secondary-color);
+}

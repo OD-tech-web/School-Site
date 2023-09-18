@@ -1,0 +1,149 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 .2rem var(--bg-color);
+    background-color: var(--primary-color);
+    z-index: 10;
+}
+
+.logo div {
+    background-color: var(--bg-color);
+    padding: .1rem .2rem;
+    border-radius: .2rem;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.logo p {
+    display: inline-block;
+    color: var(--bg-color);
+    font-style: italic;
+}
+
+.menu-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: transform .4s ease;
+}
+
+.menu-btn_burger {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--bg-color);
+}
+
+.navbar {
+    display: none;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: -100%;
+    background-color: var(--danger-color);
+    transition: top .2s ease;
+    overflow-y: auto;
+    z-index: 5;
+}
+
+.sidebar-links {
+    margin-top: 4rem;
+}
+
+.sidebar-links li .navigate {
+    color: var(--bg-color);
+    text-transform: uppercase; 
+    font-size: .6rem; 
+    background-color: var(--primary-color);
+    border-radius: .3rem;
+    padding: .8rem 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0rem 1rem;
+}
+
+.sidebar-btn_text {
+    background-color: pink;
+    margin: .5rem auto auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav a.active {
+    padding-bottom: .4rem;
+    border-bottom: 2px solid var(--bg-color);
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .navbar {
+        display: inline-block;
+        font-size: .7rem;
+    }
+
+    .navbar .navigate {
+        margin: auto .3rem;
+        color: var(--bg-color);
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .navbar {
+        margin-right: 2rem;
+        font-size: .9rem;
+    }
+
+    .navbar .navigate {
+        margin: auto .5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        margin-left: 5rem;
+    }
+
+    .navbar {
+        margin-right: 5rem;
+        font-size: 1.2rem;
+    }
+}

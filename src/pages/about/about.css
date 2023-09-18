@@ -1,0 +1,47 @@
+.about-rule_container {
+    padding-right: 4rem;
+    margin-top: .5rem;
+}
+
+.about-rule {
+    background-color: var(--bg-color);
+    height: 2px;
+}
+
+.about-box2 {
+    background-color: var(--bg-color);
+    padding: 4rem 1rem;
+}
+
+.about-box2-first {
+    padding-top: 4rem;
+}
+
+.about-list_li {
+    margin-top: .3rem;
+}
+
+.about-box4 {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-box1_item1 {
+        display: grid;
+        place-content: center;
+    }
+
+    .about-rule {
+        width: 10rem;
+    }
+
+    .about-rule_container {
+        padding-right: 0rem;
+    }
+
+    .about-box1_item2 {
+        display: flex;
+        column-gap: 2rem;
+    }
+}

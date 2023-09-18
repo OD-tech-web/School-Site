@@ -1,0 +1,18 @@
+li {
+    margin-top: .2rem;
+}
+
+.postgrad-list2_ol {
+    list-style-type: upper-roman;
+}
+
+.postgrad-box2 {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    padding: 3rem 1rem;
+}
+
+.postgrad-box4 {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+}

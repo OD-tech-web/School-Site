@@ -1,0 +1,163 @@
+:root {
+    --bg-color: #010005;
+    --primary-color: #f7f5f5;
+    --secondary-color: #d3d2d2;
+    --danger-color: #a1a1a1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .9rem;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.open {
+    transform: rotate(810deg);
+}
+
+.show {
+    top: 0 !important;
+    position: fixed !important;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: .3rem;
+    border: .2rem solid var(--bg-color);
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.header {
+    background-image: url(./images/images\ \(1\)\ \(2\).jpeg);
+    background-size: cover;
+    height: 12rem;
+    padding: 6rem 1rem 0rem;
+}
+
+.header-head {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: .2rem;
+}
+
+.header-item {
+    border-left: .2rem solid var(--primary-color);
+    padding: .3rem 1rem;
+}
+
+.text-secondary {
+    color: var(--bg-color);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-neutral {
+    color: var(--secondary-color);
+}
+
+.text-danger {
+    color: var(--danger-color);
+}
+
+.f-sz {
+    font-size: .7rem;
+}
+
+.mg-t {
+    margin-top: 1rem;
+}
+
+.mg-t_md {
+    margin-top: 2rem;
+}
+
+.mg-t_lg {
+    margin-top: 3rem;
+}
+
+.mg-b {
+    margin-bottom: 1rem;
+}
+
+.mg-b_md {
+    margin-bottom: 2rem;
+}
+
+.mg-b_lg {
+    margin-bottom: 3rem;
+}
+
+.txt-ctr {
+    text-align: center;
+}
+
+.pad {
+    padding: 0rem 1rem;
+}
+
+.pad2 {
+    padding: 0rem 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .txt-ctr01 {
+        text-align: center !important;
+    }
+
+    .header {
+        padding-left: 7rem;
+    }
+
+    .header-head {
+        width: 17rem;
+    }
+
+    .d-flex01 {
+        display: flex !important;
+        justify-content: center !important;
+        column-gap: 2rem !important;
+    }
+
+    .d-flex001 {
+        display: flex !important;
+        align-items: center !important;
+        column-gap: 2rem !important;
+    }
+
+    .mg-t0 {
+        margin-top: 0rem !important;
+    }
+
+    .pad01 {
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        padding-left: 12rem;
+    }
+
+    .pad02 {
+        padding-left: 7rem !important;
+        padding-right: 7rem !important;
+    }
+}
