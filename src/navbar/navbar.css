@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     width: 100%;
     box-shadow: 0 0 .2rem var(--bg-color);
@@ -77,7 +77,7 @@ header {
 
 .nav-list {
     list-style-type: none;
-    padding: 0rem 1rem;
+    padding: .5rem 1rem 0rem;
 }
 
 .sidebar-btn_text {
